@@ -34,12 +34,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | USUÁRIO | Devolver a bicicleta sem cobrança | Não pagar por uma bicicleta que após a retirada, percebi estar com danos |
 | USUÁRIO | Devolver a bicicleta na estação mais próxima a mim | Não precisar andar muito após a devolução |
 | USUÁRIO | Relatar um problema de forma fácil | Resolver os problemas sem estresse |
-|--------------------|------------------------------------|----------------------------------------|
-| EU COMO... `ADMINISTRADOR`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`    |
-| ADMINISTRADOR | Criar conta administradora no aplicativo | Gestão do sistema |
-| ADMINISTRADOR | Rastrear usuário e bicicleta | Gerenciar quantidade de bicicletas vagas e em uso  |
-| ADMINISTRADOR | Alterar permissões | Modificar, interagir e avaliar as contas |
-| ADMINISTRADOR | Bloquear usuário | O caso de não haver devolução ou falta de pagamento |
+
 
 ### Requisitos Funcionais
 
