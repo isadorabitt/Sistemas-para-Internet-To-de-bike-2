@@ -2,7 +2,7 @@
 
 `Sistemas Pra Internet`
 
-`Projeto de aplicações web`
+`Projeto de Aplicações Web`
 
 `2° semestre`
 
