@@ -30,7 +30,7 @@ Contribuir para a melhoria da mobilidade urbana nas cidades brasileiras, com um 
 Ofertar ao usuário uma opção alternativa de mobilidade.
 Com o acesso a bicicletas de qualidade, o objetivo é estimular a maior procura por esse meio de transporte, e consequentemente, contribuir com a diminuição do trânsito.
 Contribuir com menor impacto ambiental, estimulando o maior uso de bicicletas elétricas, meio de transporte não poluente.
-As bicicletas elétricas são uma ótima opção de transporte rápido, econômico e alternativo. Auxilia também em suar menos enquanto pedala, ter uma vida mais saudável e fugir do trânsito.
+As bicicletas elétricas são uma ótima opção de transporte rápido, econômico e alternativo. Além disso, diminui o cansaço de pedalar, ajuda a ter uma vida mais saudável e fugir do trânsito.
 
 
 ## Público-Alvo
@@ -38,13 +38,13 @@ As bicicletas elétricas são uma ótima opção de transporte rápido, econômi
 - Pessoas que buscam uma alternativa mais eficiente, ecológica e sustentável em mobilidade urbana;
 - Pessoas que gostem de se exercitar e procuram maneiras de introduzir atividades físicas no dia a dia;
 - Pessoas que precisam se locomover todos os dias e buscam uma forma mais acessível de realizar seus trajetos;
-- Pessoas que precisem de uma alternativa de locomoção para o último trecho, por exemplo, entre uma estação de metrô e o destino final;
+- Pessoas que precisam de uma alternativa de locomoção para o último trecho, por exemplo, entre uma estação de metrô e o destino final;
 - Buscam se locomover de maneira rápida e acessível além de incluir atividade física no dia a dia, por meio de uma solução alternativa que os leve ao seu destino final.
 
-- Educação: ensino superior 
+- Educação: educação básico
 - Classe Social: média 
 - Gênero: masculino e feminino
-- Idade: 18-35
+- Idade: 18-45
 - Nacionalidade: brasileiro
 - Localização: Urbano
 
