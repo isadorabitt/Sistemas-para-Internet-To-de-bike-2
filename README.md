@@ -1,12 +1,12 @@
 # SISTEMA DE CONTROLE DE ENTREGA E DEVOLUÇÃO DE BICICLETAS ELÉTRICAS
 
-`Sistemas Pra Internet`
+`Sistemas Para Internet`
 
 `Projeto de Aplicações Web`
 
 `2° semestre`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O presente estudo para o projeto de Sistema de Controle de Entrega e Devolução de Bicicletas Elétricas tem o objetivo de permitir que qualquer pessoa retire uma bicicleta em um local e a devolva ao sistema em outro local, viabilizando assim o transporte alternativo, impactando as zonas urbanas com mobilidade acessível, de um ponto a outro, por tração humana.S01 - 20/04/2022 - Gabriel - Requisitos
 
 ## Integrantes
 
