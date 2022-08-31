@@ -6,7 +6,7 @@
 
 `2° semestre`
 
-O presente estudo para o projeto de Sistema de Controle de Entrega e Devolução de Bicicletas Elétricas tem o objetivo de permitir que qualquer pessoa retire uma bicicleta em um local e a devolva ao sistema em outro local, viabilizando assim o transporte alternativo, impactando as zonas urbanas com mobilidade acessível, de um ponto a outro, por tração humana.S01 - 20/04/2022 - Gabriel - Requisitos
+O presente estudo para o projeto de Sistema de Controle de Entrega e Devolução de Bicicletas Elétricas tem o objetivo de permitir que qualquer pessoa retire uma bicicleta em um local e a devolva ao sistema em outro local, viabilizando assim o transporte alternativo, impactando as zonas urbanas com mobilidade acessível, de um ponto a outro, por tração humana.
 
 ## Integrantes
 
@@ -14,7 +14,7 @@ O presente estudo para o projeto de Sistema de Controle de Entrega e Devolução
 * Gabriel Rodrigues Ferro
 * Isadora Bittencourt
 * Kayra Rodrigues Marcílio
-* Letícia Rose de Santana
+* Letícia Rose de Santana Lopes
 * Luana Berato dos Santos
 * Márcia Aparecida Albergaria
 * Maria Eduarda Ribeiro de Almeida
