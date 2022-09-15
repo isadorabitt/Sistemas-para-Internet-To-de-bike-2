@@ -1,28 +1,5 @@
 # Metodologia
 
-## Controle de Versão
-
-A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
-
-O projeto segue a seguinte convenção para o nome de branches:
-
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
-
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
-
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
-
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
 
 ## Gerenciamento de Projeto
 
@@ -37,7 +14,7 @@ Gerenciamento do Projeto | Trello  | <a>https://trello.com/b/viGGDE7A/spa-t%C3%B
 
 ### Divisão de Papéis
 
-
+A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. Scrum é definido como conjunto de boas práticas empregado no gerenciamento de projetos e tem como principal conceito a ideia de finalizar um projeto mais rápido, com melhor qualidade, otimizando os recursos humanos e materiais. Além disso, potencializa o trabalho em equipe com foco no cumprimento dos prazos estipulados por meio do acompanhamento da evolução do projeto. Por conseguinte, a divisão de papéis será feita através da demanda e afinidade de cada membro do grupo em relação à tarefa a ser realizada.
 
 ### Processo
 
@@ -47,4 +24,8 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 ⦁	Doing: Tarefa já iniciada pelo time.<br>
 ⦁	Done: Tarefas já concluídas.<br>
 ⦁	Blocked: Lista responsável por agregar as tarefas que não foram concluídas por algum bloqueio. 
+
+O quadro Trello do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível através do [Trello](https://trello.com/b/viGGDE7A/spa-t%C3%B4-de-bike) e é apresentado, no estado atual, na Figura. 
+
+<td><img src="https://i.imgur.com/6fbLO2T.png"/></td>
 
