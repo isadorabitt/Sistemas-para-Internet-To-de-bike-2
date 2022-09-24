@@ -21,4 +21,4 @@ A seguir pode-se visualizar um diagrama de implantação, visando mostrar a exec
 ## Hospedagem
 O site utiliza a plataforma do Netlify como ambiente de hospedagem do site do projeto. O site é mantido no ambiente da URL:
 
-A publicação do site no Netlifyu é feita por meio de uma submissão do projeto (push) via git para o repositório remoto que se encontra no endereço:
+A publicação do site no Netlify é feita por meio de uma submissão do projeto (push) via git para o repositório remoto que se encontra no endereço:
