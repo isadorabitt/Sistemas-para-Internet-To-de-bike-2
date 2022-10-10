@@ -1,8 +1,8 @@
 import React from "react";
-import { Menu } from "../components/Menu";
+import {Inpt} from "../components/Form/Input"
 
-export const Menu = () => {
+export const Cadastro = () => {
     return (
-      <Menu />
+      <Inpt />
     )
   }

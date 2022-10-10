@@ -1,17 +1,16 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Home } from "./pages/Home";
-import { Menu } from "./components/Menu";
-import { Header } from "./components/Header";
+import { Cadastro } from "./pages/Cadastro";
 import { GlobalStyle } from "./GlobalStyles";
 
 function App() {
   return (
     <BrowserRouter>
       <GlobalStyle />
-      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/cadastro" element={<Cadastro />} />
       </Routes>
     </BrowserRouter>
   );
