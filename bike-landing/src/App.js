@@ -4,6 +4,7 @@ import { Home } from "./pages/Home";
 import { Cadastro } from "./pages/Cadastro";
 import { GlobalStyle } from "./GlobalStyles";
 
+
 function App() {
   return (
     <BrowserRouter>
