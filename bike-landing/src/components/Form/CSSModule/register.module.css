@@ -1,0 +1,12 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5rem;
+}
+
+.fraseCadastro {
+    color: #0098DA;
+    margin-top: 2rem;
+}

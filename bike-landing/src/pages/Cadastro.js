@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import logo from "../assets/images/logo.png";
-import { RegisterForm } from "../components/Form/RegisterForm";
+import { RegisterForm } from "../components/Form/RegisterForm.js";
 
 export const Cadastro = () => {
   return (

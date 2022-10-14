@@ -1,42 +1,27 @@
 import React from "react";
-import styled from 'styled-components';
+import styles from './CSSModule/register.module.css';
 import { Input } from "./Input";
 
 export const RegisterForm = () => {
 
     return (
-        <Form>
-        <H3>Crie sua conta</H3>
+        <form className={styles.form}>
+        <h3 className={styles.fraseCadastro}>Crie sua conta</h3>
 
         <Input type="text" placeholder="Nome" />
         <Input type="email" placeholder="Email" />
         <Input type="password"  placeholder="Senha" />
         <Input type="password" placeholder="Confirmar senha" />
 
-        <H3>Está quase pronto!</H3>
+        <h3 className={styles.fraseCadastro}>Está quase pronto!</h3>
 
         <Input type="number" id="cpf" placeholder="CPF" />
         <Input type="tel" placeholder="Telefone"/>
         <Input type="date" placeholder="Data de nascimento" />
 
         {/* <Button primary="true" round="true">Criar Conta</Button> */}
-        </Form>
+        </form>
 
 
     )
 }
-
-
-
-const Form = styled.form`
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items: center;
-margin-left: 5rem;
-`
-
-const H3 = styled.h3`
-color: #0098DA;
-margin-top: 2rem; 
-`
