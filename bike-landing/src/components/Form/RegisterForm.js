@@ -8,10 +8,10 @@ export const RegisterForm = () => {
 
     return (
 
-        <main className={registerForm.main}>
+        <main className={registerForm.registerMain}>
             <div className={registerForm.left}>
                 <img src={logo} alt="logo"/>
-                <p>Olá. Seja Bem-vindo! Complete os campos ao lado para criar a sua conta. Já tem cadastro? <a href={"../../pages/Menu"}>Entrar.</a></p>
+                <p>Olá. Seja Bem-vindo! Complete os campos ao lado para criar a sua conta. Já tem cadastro? <a href={"/login"}>Entrar.</a></p>
             </div>
 
             <form className={registerForm.form}>
