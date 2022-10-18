@@ -1,22 +1,25 @@
 @import url(./Resetcss.module.css);
 
 .footerContainer {
-  min-width: 100vw;
-  height: 4rem;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   justify-items: center;
-  background-color: #5eb95f;
-  z-index: 2;
-  position: absolute;
-  bottom: 0rem;
+  position: fixed;
+  bottom: 0;
+}
+
+.footerContainer p {
+  font-family: Roboto, Inter;
+  font-size: 18px;
+  margin-left: 4rem;
 }
 
 .decoration {
-  width: 315px;
-  height: 309px;
+  max-width: 265px;
+  max-height: 259px;
   position: absolute;
   right: 5rem;
-  bottom: 5rem;
+  bottom: 2rem;
 }
