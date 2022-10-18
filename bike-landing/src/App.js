@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Home } from "./pages/Home";
-import { Cadastro } from "./pages/Cadastro";
 import { GlobalStyle } from "./GlobalStyles";
+import {Register} from "./pages/Register";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <GlobalStyle />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/cadastro" element={<Cadastro />} />
+        <Route path="/cadastro" element={<Register />} />
       </Routes>
     </BrowserRouter>
   );

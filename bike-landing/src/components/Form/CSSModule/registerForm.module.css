@@ -1,19 +1,45 @@
 @import url(./reset.module.css);
 
-.form {
+.main {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-content: center;
+}
+
+.left{
+    background: linear-gradient(180deg, #0098DA 0%, #49B27A 65.62%, rgba(106, 189, 80, 0.98) 100%);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.22);
+    width: 50vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    margin-left: 5rem;
+    justify-content: center;
+}
 
-    
+.left p {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 2rem;
+    padding: 0 3rem;
+    letter-spacing: 2px;
+    line-height: 30px;
+    font-weight: lighter;
+}
+
+.form {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .registerPhrase {
+    font-size: 1.5rem;
     color: #0098DA;
-    margin-top: 2rem;
-
-    
+    margin: 1.8rem 0;
 }
  

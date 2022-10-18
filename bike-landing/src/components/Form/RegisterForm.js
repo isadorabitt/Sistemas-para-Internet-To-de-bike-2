@@ -1,27 +1,35 @@
 import React from "react";
-import styles from './CSSModule/registerForm.module.css';
-import { Input } from "./Input";
+import registerForm from './CSSModule/registerForm.module.css';
+import {Input} from "./Input";
+import logo from "../../assets/images/logo.png";
+import {Button} from "../Button";
 
 export const RegisterForm = () => {
 
     return (
 
-        <form className={styles.form}>
-        <h3 className={styles.registerPhrase}>Crie sua conta</h3>
+        <main className={registerForm.main}>
+            <div className={registerForm.left}>
+                <img src={logo} alt="logo"/>
+                <p>Olá. Seja Bem-vindo! Complete os campos ao lado para criar a sua conta. Já tem cadastro? <a href={"../../pages/Menu"}>Entrar.</a></p>
+            </div>
 
-        <Input type="text" placeholder="Nome" />
-        <Input type="email" placeholder="Email" />
-        <Input type="password"  placeholder="Senha" />
-        <Input type="password" placeholder="Confirmar senha" />
+            <form className={registerForm.form}>
+                <h3 className={registerForm.registerPhrase}>Crie sua conta</h3>
 
-        <h3 className={styles.registerPhrase}>Está quase pronto!</h3>
+                <Input type="text" placeholder="Nome"/>
+                <Input type="email" placeholder="Email"/>
+                <Input type="password" placeholder="Senha"/>
+                <Input type="password" placeholder="Confirmar senha"/>
 
-        <Input type="number" id="cpf" placeholder="CPF" />
-        <Input type="tel" placeholder="Telefone"/>
-        <Input type="date" placeholder="Data de nascimento" />
+                <h3 className={registerForm.registerPhrase}>Está quase pronto!</h3>
 
-        {/* <Button primary="true" round="true">Criar Conta</Button> */}
-        </form>
-        
+                <Input type="number" id="cpf" placeholder="CPF"/>
+                <Input type="tel" placeholder="Telefone"/>
+                <Input type="date" placeholder="Data de nascimento"/>
+
+                <Button primary="false" round="true">Criar Conta</Button>
+            </form>
+        </main>
     )
 }

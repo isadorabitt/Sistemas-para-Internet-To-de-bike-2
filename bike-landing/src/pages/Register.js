@@ -1,6 +1,5 @@
 import React from "react";
 import {RegisterForm} from '../components/Form/RegisterForm';
-import {RegisterText} from '../components/Form/RegisterText';
 
 export const Register = () => {
 
@@ -8,7 +7,7 @@ export const Register = () => {
 
       <div>
         <RegisterForm />  
-        <RegisterText />
+
       </div>
       
   )
