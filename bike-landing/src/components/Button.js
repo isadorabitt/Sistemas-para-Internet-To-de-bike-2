@@ -8,7 +8,7 @@ export const Button = styled.button`
     font-size: ${({big}) => (big ? '25px': '20px')};
     outline: none;
     border: none;
-    min-width: 140px;
+    min-width: ${({small}) => (small ? '140px': '400px')};;
     cursor: pointer;
     text-decoration: none;
     transition: 0.3s !important;
