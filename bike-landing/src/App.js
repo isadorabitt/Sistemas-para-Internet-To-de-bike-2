@@ -1,8 +1,9 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Home } from "./pages/Home";
-import { Cadastro } from "./pages/Cadastro";
+import { Register } from "./pages/Register";
 import { GlobalStyle } from "./GlobalStyles";
+import { Login } from "./pages/Login";
 
 
 function App() {
@@ -11,7 +12,9 @@ function App() {
       <GlobalStyle />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/cadastro" element={<Cadastro />} />
+        <Route path="/cadastro" element={<Register />} />
+        <Route path="/login" element={<Login />} />
+        
       </Routes>
     </BrowserRouter>
   );

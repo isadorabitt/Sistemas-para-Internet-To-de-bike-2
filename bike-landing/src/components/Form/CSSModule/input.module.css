@@ -1,3 +1,5 @@
+@import url(./reset.module.css);
+
 .input{
     background-color: #D9D9D9;
 width: 20rem;
