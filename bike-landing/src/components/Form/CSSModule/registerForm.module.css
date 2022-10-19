@@ -28,6 +28,11 @@
     font-weight: lighter;
 }
 
+.left a {
+    color: white;
+    text-decoration: none;
+}
+
 .form {
     width: 50vw;
     display: flex;
