@@ -1,14 +1,20 @@
 @import url(./reset.module.css);
 
-.main {
+.registerMain {
     display: flex;
     height: 100vh;
     width: 100vw;
     align-content: center;
+    position: fixed;
 }
 
+
+
 .left{
-    background: linear-gradient(180deg, #0098DA 0%, #49B27A 65.62%, rgba(106, 189, 80, 0.98) 100%);
+    background: linear-gradient(180deg, 
+    #0098DA 0%,
+    #49B27A 65.62%,
+    rgba(106, 189, 80, 0.98) 100%);
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.22);
     width: 50vw;
     display: flex;
@@ -20,7 +26,7 @@
 .left p {
     text-align: center;
     font-size: 1.5rem;
-    color: #333;
+    color: #FFF;
     margin-top: 2rem;
     padding: 0 3rem;
     letter-spacing: 2px;
@@ -28,9 +34,8 @@
     font-weight: lighter;
 }
 
-.left a {
-    color: white;
-    text-decoration: none;
+.link {
+    color: #333;
 }
 
 .form {
@@ -39,12 +44,68 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 1.2rem;
 
 }
 
 .registerPhrase {
     font-size: 1.5rem;
     color: #0098DA;
-    margin: 1.8rem 0;
+    margin: 1rem 0;
 }
- 
+
+.loginMain {
+    background: linear-gradient(
+        180deg,
+        #0098DA 0%,
+        #49B27A 65.62%,
+        rgba(106, 189, 80, 0.98) 100%
+        );
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.22);
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+.loginMain form {
+    
+    margin-left: 105vh;
+    position: unset;
+    margin-top: -15vw;
+}
+
+.loginMain form button {
+    margin: 2rem;
+}
+
+.imagem {
+    width: 214px;
+    height: 210.06px;
+    left: 557px;
+    top: 485px;
+}
+
+.loginText {
+    
+    font-size: 1.5rem;
+    color: #FFF;
+    margin-top: 2rem;
+    padding: 0 3rem;
+    letter-spacing: 2px;
+    line-height: 30px;
+    font-weight: lighter; 
+}
+
+.leftSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 130vh;
+    
+}
+
+.foot {
+    position: fixed;
+    bottom: 6vh;
+    left: 85vh;
+}

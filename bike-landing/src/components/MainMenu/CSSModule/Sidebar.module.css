@@ -1,8 +1,8 @@
 @import url(./Resetcss.module.css);
 
 .sideContainer {
-  max-width: 248px;
-  height: 100vh;
+  min-width: 248px;
+  min-height: 100%;
   background: rgb(0, 152, 218);
   background: linear-gradient(
     180deg,
@@ -12,39 +12,52 @@
   );
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
   gap: 50px;
-  align-items: center;
 }
 
 .logo {
-  max-width: 150px;
-  max-height: 120px;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  max-width: 8.125rem;
+  max-height: 6.25rem;
+  margin-top: 3.75rem;
+  margin-bottom: 3.75rem;
 }
 
-.navMenu {
+.navMenu,
+.npNavMenu {
   display: flex;
   flex-direction: column;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
   gap: 2rem;
-  margin-left: 7rem;
-  font-size: 23px;
+  font-size: 20px;
   position: relative;
 }
 
-.navMenu a {
-  padding: 5px 0px 5px 1rem;
+.navMenu img {
+  margin-left: 25%;
 }
 
-.navMenu a:global(.active) {
+.navMenu a,
+.npNavMenu a {
+  margin-left: 45%;
+  text-align: start;
+  padding: 6px 0 6px 12px;
+  display: flex;
+  align-items: center;
+  font-family: Roboto;
+}
+
+.navMenu a:global(.active),
+.npNavMenu a:global(.active) {
   background-color: white;
   color: black;
   border-radius: 30px 0px 0px 30px;
-  width: 8.5rem;
+  font-family: Roboto;
+  font-weight: 500;
 }
 
-a:nth-child(1):before {
+.navMenu a:nth-child(2):before {
   content: "";
   display: inline-block;
   background: url(../../../assets/Icones/Vector.svg);
@@ -53,65 +66,94 @@ a:nth-child(1):before {
   height: 30px;
   padding-right: 1.5rem;
   position: absolute;
-  left: -2rem;
+  left: 5rem;
 }
 
-a:nth-child(2):before {
+.navMenu a:nth-child(3):before {
   content: "";
   display: inline-block;
   background: url(../../../assets/Icones/clarity_map-marker-line.svg);
   background-repeat: no-repeat, repeat;
   width: 15px;
   height: 30px;
-  padding-right: 1.8rem;
+  padding-right: 1.5rem;
   position: absolute;
-  left: -2rem;
+  left: 5rem;
 }
 
-a:nth-child(3):before {
+.navMenu a:nth-child(4):before {
   content: "";
   display: inline-block;
   background: url(../../../assets/Icones/fluent_wallet-32-regular.svg);
   background-repeat: no-repeat, repeat;
   width: 15px;
   height: 30px;
-  padding-right: 1.8rem;
+  padding-right: 1.5rem;
   position: absolute;
-  left: -2rem;
+  left: 5rem;
 }
 
-a:nth-child(4):before {
+.navMenu a:nth-child(5):before {
   content: "";
   display: inline-block;
   background: url(../../../assets/Icones/healthicons_bike.svg);
   background-repeat: no-repeat, repeat;
   width: 15px;
   height: 30px;
-  padding-right: 1.8rem;
+  padding-right: 1.5rem;
   position: absolute;
-  left: -2rem;
+  left: 5rem;
 }
 
-a:nth-child(5):before {
+.npNavMenu a:nth-child(1):before {
   content: "";
   display: inline-block;
   background: url(../../../assets/Icones/iconoir_headset-help.svg);
   background-repeat: no-repeat, repeat;
   width: 15px;
   height: 30px;
-  padding-right: 1.8rem;
+  padding-right: 1.5rem;
   position: absolute;
-  left: -2rem;
+  left: 5rem;
 }
 
-a:nth-child(6):before {
+.npNavMenu a:nth-child(2):before {
   content: "";
   display: inline-block;
   background: url(../../../assets/Icones/carbon_logout.svg);
   background-repeat: no-repeat, repeat;
   width: 15px;
   height: 30px;
-  padding-right: 1.8rem;
+  padding-right: 1.5rem;
   position: absolute;
-  left: -2rem;
+  left: 5rem;
 }
+
+footer {
+  color: black;
+}
+
+@media (max-height: 700px) {
+  .logo {
+    max-width: 7rem;
+    max-height: 5.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .navMenu,
+  .npNavMenu {
+    padding-bottom: 15px;
+    gap: 1.5rem;
+    font-size: 15px;
+  }
+
+  .navMenu img {
+    margin-left: 28%;
+  }
+
+  .navMenu a:global(.active),
+  .npNavMenu a:global(.active) {
+    border-radius: 30px 0px 0px 30px;
+  }
+} ;
