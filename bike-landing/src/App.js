@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { AuthProvider } from "./context/auth";
 import { Home } from "./pages/Home";
 import { GlobalStyle } from "./GlobalStyles";
 import { Menu } from "./pages/Menu";
@@ -12,6 +13,7 @@ import {Login} from "./pages/Login";
 
 function App() {
   return (
+   <AuthProvider> 
     <BrowserRouter>
       <GlobalStyle />
       <Routes>
@@ -25,6 +27,7 @@ function App() {
         <Route path="/login" element={<Login />} />
       </Routes>
     </BrowserRouter>
+   </AuthProvider>
   );
 }
 

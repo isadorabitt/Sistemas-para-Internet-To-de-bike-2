@@ -5,7 +5,7 @@ import styles from './CSSModule/input.module.css';
 
 
 
-export const Input = ({ type, name, placeholder, value, handleOnChange }) => {
+export const Input = ({ type, name, placeholder, value, onChange }) => {
     //const { register, handleSubmit, watch, formState: { errors } } = useForm();
 
     return (
@@ -13,9 +13,8 @@ export const Input = ({ type, name, placeholder, value, handleOnChange }) => {
         <input className={styles.input}
             type={type}
             name={name}
-            id={name}
             placeholder={placeholder}
-            onChange={handleOnChange}
+            onChange={onChange}
             value={value}
         />
     )

@@ -34,7 +34,7 @@
     font-weight: lighter;
 }
 
-a {
+.link {
     color: #333;
 }
 
@@ -104,7 +104,7 @@ a {
     
 }
 
-footer {
+.foot {
     position: fixed;
     bottom: 6vh;
     left: 85vh;
