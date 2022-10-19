@@ -12,16 +12,19 @@ export const RegisterForm = () => {
     const [senha, setSenha] = useState("");
     const [senhaConf, setSenhaConf] = useState("");
     const [error, setError] = useState("");
+    const [cpf, setCpf] = useState("");
+    const [telefone, setTel] = useState("");
+    const [nascimento, setNasc] = useState("");
     const navigate = useNavigate();
 
     const {register} = useAuth();
 
     const handleRegister = () => {
-        if (!email | !senhaConf| !senha) {
+        if (!email | !senhaConf | !senha | !cpf | !telefone | !nascimento) {
           setError("Preencha todos os campos");
           return;
-        } else if (email !== senhaConf) {
-          setError("Os e-mails não são iguais");
+        } else if (senha !== senhaConf) {
+          setError("As senhas não são iguais");
           return;
         }
     
@@ -33,7 +36,8 @@ export const RegisterForm = () => {
         }
     
         alert("Usuário cadastrado com sucesso!");
-        navigate("/");
+        navigate("/login");
+        
       };
     
 
@@ -70,11 +74,28 @@ export const RegisterForm = () => {
 
                 <h3 className={registerForm.registerPhrase}>Está quase pronto!</h3>
 
-                <Input type="number" id="cpf" placeholder="CPF"/>
-                <Input type="tel" placeholder="Telefone"/>
-                <Input type="date" placeholder="Data de nascimento"/>
+                <Input 
+                    type="number" 
+                    placeholder="CPF"
+                    onChange={(e) => [setCpf(e.target.value), setError("")]}
+                />
+                <Input 
+                    type="tel" 
+                    placeholder="Telefone"
+                    onChange={(e) => [setTel(e.target.value), setError("")]}
+                />
+                <Input 
+                    type="date" 
+                    placeholder="Data de nascimento"
+                    onChange={(e) => [setNasc(e.target.value), setError("")]}
+                />
 
-                <Button onClick={handleRegister} primary="false" round="true">Criar Conta</Button>
+                <Button 
+                    onClick={handleRegister} 
+                    type="button"
+                    primary="false" 
+                    round="true">Criar Conta
+                </Button>
                 <label>{error}</label>
             </form>
         </main>

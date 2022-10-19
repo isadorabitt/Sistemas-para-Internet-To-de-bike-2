@@ -24,7 +24,7 @@ export const AuthProvider = ({children}) => {
 
         const hasUser = usersStorage?.filter((user) => user.email === email);
 
-        if (hasUser?.lenght) {
+        if (hasUser?.length) {
             if (hasUser[0].email === email && hasUser[0].password === password) {
                 const token = Math.random().toString(36).substring(2);
                 localStorage.setItem("user_token", JSON.stringify({email, token}));
@@ -43,7 +43,7 @@ export const AuthProvider = ({children}) => {
 
         const hasUser = usersStorage?.filter((user)=> user.email === email);
 
-        if (hasUser?.lenght) {
+        if (hasUser?.length) {
             return "Já existe uma conta vinculada a este email";
         }
 
