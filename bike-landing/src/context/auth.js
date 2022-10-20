@@ -1,3 +1,4 @@
+import React from 'react'
 import { createContext, useEffect, useState } from "react";
 
 export const AuthContext = createContext({});
@@ -60,10 +61,8 @@ export const AuthProvider = ({children}) => {
     }
 
     return (
-    <AuthContext.Provider
-        value={{user, signed: !!user, login, register}}
-    >
-        {children}
-    </AuthContext.Provider>
+        <AuthContext.Provider value={{user, signed: !!user, login, register}}>
+            {children}
+        </AuthContext.Provider>
     );
 };
