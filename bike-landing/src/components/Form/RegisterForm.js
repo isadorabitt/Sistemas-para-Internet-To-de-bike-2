@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { Navigate, useNavigate } from "react-router";
+import { useNavigate } from "react-router";
 import useAuth from "../../hooks/useAuth";
 import registerForm from './CSSModule/registerForm.module.css';
 import {Input} from "./Input";

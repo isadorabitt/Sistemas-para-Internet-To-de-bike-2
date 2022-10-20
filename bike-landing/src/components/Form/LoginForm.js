@@ -5,13 +5,13 @@ import registerForm from './CSSModule/registerForm.module.css';
 import logo from "../../assets/images/logo.png";
 import decoration from "../../assets/images/Decoration2.png";
 import { Input } from "./Input";
-import { Navigate, useNavigate } from "react-router";
+import { useNavigate } from "react-router";
 
 export const LoginForm = () => {
 
     
     const {login} = useAuth();
-    const Navigate = useNavigate();
+    const navigate = useNavigate();
 
 
 
@@ -32,7 +32,7 @@ export const LoginForm = () => {
             return;
         }
         
-        Navigate("/menu");
+        navigate("/menu");
 
     };
 
