@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { Navigate, useNavigate } from "react-router";
+import { useNavigate } from "react-router";
 import useAuth from "../../hooks/useAuth";
 import registerForm from './CSSModule/registerForm.module.css';
 import {Input} from "./Input";
@@ -12,19 +12,16 @@ export const RegisterForm = () => {
     const [senha, setSenha] = useState("");
     const [senhaConf, setSenhaConf] = useState("");
     const [error, setError] = useState("");
-    const [cpf, setCpf] = useState("");
-    const [telefone, setTel] = useState("");
-    const [nascimento, setNasc] = useState("");
-    const navigate = useNavigate();
+    const Navigate = useNavigate();
 
     const {register} = useAuth();
 
     const handleRegister = () => {
-        if (!email | !senhaConf | !senha | !cpf | !telefone | !nascimento) {
+        if (!email | !senhaConf | !senha) {
           setError("Preencha todos os campos");
           return;
-        } else if (senha !== senhaConf) {
-          setError("As senhas não são iguais");
+        } else if (email !== senhaConf) {
+          setError("Os e-mails não são iguais");
           return;
         }
     
@@ -36,8 +33,7 @@ export const RegisterForm = () => {
         }
     
         alert("Usuário cadastrado com sucesso!");
-        navigate("/login");
-        
+        Navigate("/");
       };
     
 
@@ -46,7 +42,7 @@ export const RegisterForm = () => {
         <main className={registerForm.registerMain}>
             <div className={registerForm.left}>
                 <img src={logo} alt="logo"/>
-                <p>Olá, seja bem-vindo! Complete os campos ao lado para criar a sua conta.<br/>Já tem cadastro? <a className= {registerForm.link}href={"/login"}>Entrar.</a></p>
+                <p>Olá, seja bem-vindo! Complete os campos ao lado para criar a sua conta.<br/>Já tem cadastro? <a className= {registerForm.link} href={"/login"}>Entrar.</a></p>
             </div>
 
             <form className={registerForm.form}>
@@ -74,28 +70,11 @@ export const RegisterForm = () => {
 
                 <h3 className={registerForm.registerPhrase}>Está quase pronto!</h3>
 
-                <Input 
-                    type="number" 
-                    placeholder="CPF"
-                    onChange={(e) => [setCpf(e.target.value), setError("")]}
-                />
-                <Input 
-                    type="tel" 
-                    placeholder="Telefone"
-                    onChange={(e) => [setTel(e.target.value), setError("")]}
-                />
-                <Input 
-                    type="date" 
-                    placeholder="Data de nascimento"
-                    onChange={(e) => [setNasc(e.target.value), setError("")]}
-                />
+                <Input type="number" id="cpf" placeholder="CPF"/>
+                <Input type="tel" placeholder="Telefone"/>
+                <Input type="date" placeholder="Data de nascimento"/>
 
-                <Button 
-                    onClick={handleRegister} 
-                    type="button"
-                    primary="false" 
-                    round="true">Criar Conta
-                </Button>
+                <Button onClick={handleRegister} primary="false" round="true">Criar Conta</Button>
                 <label>{error}</label>
             </form>
         </main>
