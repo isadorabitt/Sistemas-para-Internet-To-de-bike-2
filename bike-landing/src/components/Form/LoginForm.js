@@ -5,12 +5,15 @@ import registerForm from './CSSModule/registerForm.module.css';
 import logo from "../../assets/images/logo.png";
 import decoration from "../../assets/images/Decoration2.png";
 import { Input } from "./Input";
-import { useNavigate } from "react-router";
+import { Navigate, useNavigate } from "react-router";
 
 export const LoginForm = () => {
 
-    const { login } = useAuth();
-    const navigate = useNavigate();
+    
+    const {login} = useAuth();
+    const Navigate = useNavigate();
+
+
 
     const [email, setEmail] = useState("");
     const [senha, setSenha] = useState("");
@@ -29,10 +32,12 @@ export const LoginForm = () => {
             return;
         }
         
-        navigate("/menu");
+        Navigate("/menu");
+
     };
 
     return (
+
 
         <main className={registerForm.loginMain}>
 
@@ -46,6 +51,7 @@ export const LoginForm = () => {
                 </div>
 
                 <img className={registerForm.imagem}src={decoration} alt="garoto de bike" />
+
             </div>
 
             <form className={registerForm.form}>
@@ -58,7 +64,7 @@ export const LoginForm = () => {
                 <Input 
                     type="password" 
                     placeholder="Senha" 
-                    value={ senha }
+                    value={senha}
                     onChange={(e) => [setSenha(e.target.value), setError("")]}
                 />
                 <label>{error}</label>
@@ -66,6 +72,8 @@ export const LoginForm = () => {
             </form>
 
             <footer className={registerForm.foot}>Não tem uma conta? <a  className= {registerForm.link} href={"/cadastro"}>Toque aqui para criar uma </a></footer>
+
         </main>
     )
+
 }

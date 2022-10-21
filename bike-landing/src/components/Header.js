@@ -19,7 +19,7 @@ export const Header = () => {
         ))}
       </NavMenu>
       <NavBtn>
-        <Button primary="true" round="true" small="true">
+        <Button primary="true" round="true">
           Login
         </Button>
       </NavBtn>
