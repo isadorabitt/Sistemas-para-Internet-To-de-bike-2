@@ -9,6 +9,7 @@ import {Button} from "../Button";
 export const RegisterForm = () => {
 
     const [email, setEmail] = useState("");
+    const [emailConfirm, setEmailConfirm] = useState("");
     const [senha, setSenha] = useState("");
     const [senhaConf, setSenhaConf] = useState("");
     const [error, setError] = useState("");
@@ -16,11 +17,12 @@ export const RegisterForm = () => {
 
     const {register} = useAuth();
 
-    const handleRegister = () => {
+    const handleRegister = (event) => {
+        event.preventDefault();
         if (!email | !senhaConf | !senha) {
           setError("Preencha todos os campos");
           return;
-        } else if (email !== senhaConf) {
+        } else if (email !== emailConfirm) {
           setError("Os e-mails não são iguais");
           return;
         }
@@ -56,6 +58,11 @@ export const RegisterForm = () => {
                     type="email" 
                     placeholder="Email"
                     onChange={(e) => [setEmail(e.target.value), setError("")]}
+                />
+                <Input
+                    type="email"
+                    placeholder="Confirme seu Email"
+                    onChange={(e) => [setEmailConfirm(e.target.value), setError("")]}
                 />
                 <Input 
                     type="password" 
