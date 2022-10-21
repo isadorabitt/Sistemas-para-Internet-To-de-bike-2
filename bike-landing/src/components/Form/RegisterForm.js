@@ -45,6 +45,7 @@ export const RegisterForm = () => {
 
             <form className={registerForm.form}>
                 <h3 className={registerForm.registerPhrase}>Crie sua conta</h3>
+                <p>Olá. Seja Bem-vindo! <br/> Digite seu e-mail e crie uma senha.</p>
 
                 <Input 
                     type="text" 
@@ -73,7 +74,7 @@ export const RegisterForm = () => {
                 <Input type="tel" placeholder="Telefone"/>
                 <Input type="date" placeholder="Data de nascimento"/>
 
-                <Button onClick={handleRegister} primary="false" round="true">Criar Conta</Button>
+                <Button className={RegisterForm.regButton} onClick={handleRegister} primary="false" round="true">Criar Conta</Button>
                 <label>{error}</label>
             </form>
         </main>

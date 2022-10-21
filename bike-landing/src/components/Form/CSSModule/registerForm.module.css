@@ -1,11 +1,12 @@
 @import url(./reset.module.css);
 
+/* cadastro */
 .registerMain {
     display: flex;
     height: 100vh;
     width: 100vw;
     align-content: center;
-    position: fixed;
+    position:relative;
 
     
 }
@@ -52,22 +53,30 @@
 
 }
 
-.registerPhrase {
-    font-size: 1.5rem;
-    color: #0098DA;
-    margin: 1rem 0;
+.form p {
+    display: none;
 }
 
-/* @media screen and (max-width: 768px) {
-    .registerMain{
-        background: linear-gradient(
-        180deg,
-        #0098dac2 0%,
-        #49b27ac7 65.62%,
-        rgb(106 189 80 / 76%) 100%
-        );
-    }
-  } */
+
+.registerPhrase {
+    height: 57.37px;
+    left: 87.98px;
+    top: 46.74px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #0098DA;
+
+}
+
+.regButton {
+    position: fixed;
+}
+
+/* login */
 
 .loginMain {
     background: linear-gradient(
@@ -124,3 +133,39 @@
     bottom: 6vh;
     left: 85vh;
 }
+
+ /* media queries tela de registro */
+@media screen and (max-width: 768px) {
+    .registerMain{
+        background: linear-gradient(
+        180deg,
+        #0098dac2 0%,
+        #49b27ac7 65.62%,
+        rgb(106 189 80 / 76%) 100%
+        );    
+    }
+
+    .left {
+        display: none;
+    }
+
+    .form p {
+        display: block;
+        text-align: center;
+        font-size: 19px;
+        font-family: 'Inter';
+        font-style: normal;
+        color: #F4F0F0;
+    }
+
+    .form {
+        margin: 0 auto;
+    }
+
+    .registerPhrase {
+        color: #FFF;
+    }
+
+  }
+
+  /* media queries tela de login */
