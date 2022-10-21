@@ -6,15 +6,19 @@
     width: 100vw;
     align-content: center;
     position: fixed;
+
+    
 }
 
 
 
 .left{
-    background: linear-gradient(180deg, 
-    #0098DA 0%,
-    #49B27A 65.62%,
-    rgba(106, 189, 80, 0.98) 100%);
+    background: linear-gradient(
+        180deg,
+        #0098dac2 0%,
+        #49b27ac7 65.62%,
+        rgb(106 189 80 / 76%) 100%
+        );
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.22);
     width: 50vw;
     display: flex;
@@ -54,12 +58,23 @@
     margin: 1rem 0;
 }
 
+/* @media screen and (max-width: 768px) {
+    .registerMain{
+        background: linear-gradient(
+        180deg,
+        #0098dac2 0%,
+        #49b27ac7 65.62%,
+        rgb(106 189 80 / 76%) 100%
+        );
+    }
+  } */
+
 .loginMain {
     background: linear-gradient(
         180deg,
-        #0098DA 0%,
-        #49B27A 65.62%,
-        rgba(106, 189, 80, 0.98) 100%
+        #0098dac2 0%,
+        #49b27ac7 65.62%,
+        rgb(106 189 80 / 76%) 100%
         );
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.22);
     position: fixed;
