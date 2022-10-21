@@ -13,7 +13,7 @@ export const Hero = () => {
         <HeroItems>
           <HeroH1>Destinos Surreais</HeroH1>
           <HeroP>Com as melhores bikes</HeroP>
-          <Button primary="true" round="true">
+          <Button primary round small="false">
             Pedale agora
           </Button>
         </HeroItems>
@@ -27,7 +27,7 @@ const HeroContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 98vh;
   padding: 0 1rem;
   position: relative;
   margin-top: -80px;
@@ -58,6 +58,7 @@ const HeroBg = styled.div`
   width: 100%;
   height: 100%;
   overflow: hidden;
+  filter: brightness(50%);
 `;
 const VideoBg = styled.video`
   width: 100%;
@@ -85,14 +86,17 @@ const HeroItems = styled.div`
   font-weight: bold;
 `;
 const HeroH1 = styled.h1`
-  font-size: clamp(1.5rem, 6vw, 4rem);
+  font-size: clamp(1.5rem, 6vw, 4.2rem);
   margin-bottom: 1.5rem;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
   padding: 0 1rem;
   font-weight: 700;
+  color: #fff;
 `;
 const HeroP = styled.p`
   font-size: clamp(1rem, 2vw, 3rem);
   margin-bottom: 2rem;
+  letter-spacing: 2px;
   font-weight: 300;
+  color: #fff;
 `;

@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { AuthProvider } from "../node_modules/auth";
+import { AuthProvider } from "./context/auth";
 import { Home } from "./pages/Home";
 import { GlobalStyle } from "./GlobalStyles";
 import { Menu } from "./pages/Menu";

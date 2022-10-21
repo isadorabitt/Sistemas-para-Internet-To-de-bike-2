@@ -19,9 +19,23 @@ export const Header = () => {
         ))}
       </NavMenu>
       <NavBtn>
-        <Button primary="true" round="true">
-          Login
-        </Button>
+
+          <Button
+              primary
+              round
+              small
+              style={{backgroundColor:'transparent', border: ' 1.5px solid #0098DA', marginRight:'0.9rem'}}
+          >
+              <Link to={"/cadastro"}>Cadastre-se</Link>
+
+          </Button>
+          <Button
+              primary
+              round
+              small
+          >
+           <Link to={"/login"}>Login</Link>
+          </Button>
       </NavBtn>
     </Nav>
   );
@@ -32,9 +46,10 @@ const Nav = styled.nav`
   height: 80px;
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem calc((100vw - 1300px) / 2);
+  padding: 0.8rem calc((100vw - 1300px) / 2);
   z-index: 100;
   position: relative;
+  
 `;
 
 const Img = styled.img`
