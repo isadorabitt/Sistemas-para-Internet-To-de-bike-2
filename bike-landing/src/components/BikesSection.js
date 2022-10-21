@@ -36,7 +36,7 @@ const BikesContainer = styled.section`
   background: #F2F5F7;
   
   @media screen and (max-width: 768px) {
-    height: 1100px;
+    height: auto;
   }
 `
 
@@ -45,6 +45,10 @@ const BikesH1 = styled.h1`
   text-align: center;
   margin-bottom: 5rem;
   color: #222;
+
+  @media screen and (max-width: 768px) {
+    margin: 5rem auto;
+  }
 `
 
 const BikesWrapper = styled.div`
@@ -53,6 +57,12 @@ const BikesWrapper = styled.div`
   justify-items: center;
   grid-gap: 10px;
   padding: 0 2rem;
+
+  @media screen and (max-width: 768px) {
+    margin: 0;
+    grid-template-columns: 1fr;
+  }
+  
 `
 
 const BikeCard = styled.div`
@@ -62,6 +72,10 @@ const BikeCard = styled.div`
   position: relative;
   border-radius: 10px;
   transition: 0.2s ease;
+
+  @media screen and (max-width: 768px) {
+   width: 400px;
+  }
 `
 
 const BikeImg = styled.img`
@@ -75,5 +89,10 @@ const BikeImg = styled.img`
   &:hover {
     filter: brightness(100%);
     transform: translateY(-4px);
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 400px;
+    object-fit: cover;
   }
 `
