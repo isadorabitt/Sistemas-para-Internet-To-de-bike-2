@@ -41,15 +41,14 @@ export const LoginForm = () => {
             <div className={registerForm.leftSection}>
                 <img src={logo} alt="logo" />
 
-                <div className={registerForm.loginText}>
-                    <p>Olá. Seja bem-vindo!</p>
-                    <p>Boralá!</p>
-                    <p>Acesse sua conta.</p>
-                </div>
+                    <p className={registerForm.loginText}>
+                        Olá. Seja bem-vindo!<b>Boralá!</b>Acesse sua conta.
+                    </p>
 
                 <img className={registerForm.imagem}src={decoration} alt="garoto de bike" />
-
             </div>
+
+            
 
             <form className={registerForm.form}>
                 <Input 

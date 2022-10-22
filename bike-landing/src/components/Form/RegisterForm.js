@@ -74,7 +74,7 @@ export const RegisterForm = () => {
                 <Input type="tel" placeholder="Telefone"/>
                 <Input type="date" placeholder="Data de nascimento"/>
 
-                <Button className={RegisterForm.regButton} onClick={handleRegister} primary="false" round="true">Criar Conta</Button>
+                <Button className={registerForm.regButton} onClick={handleRegister} primary="false" round="true">Criar Conta</Button>
                 <label>{error}</label>
             </form>
         </main>
