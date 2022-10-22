@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const PricingSection = styled.div`
+export const PricingSection = styled.section`
   padding: 100px 0 160px;
   display: flex;
   flex-direction: column;

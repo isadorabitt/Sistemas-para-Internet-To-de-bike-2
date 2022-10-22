@@ -1,8 +1,7 @@
 import React from 'react';
 import { Button } from './Button';
 import { MdOutlinePedalBike, MdElectricBike, MdPedalBike } from 'react-icons/md';
-
-import {IconContext} from 'react-icons/lib';
+import { IconContext } from 'react-icons/lib';
 import {
     PricingSection,
     PricingWrapper,
