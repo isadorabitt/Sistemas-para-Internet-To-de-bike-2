@@ -28,7 +28,7 @@ export const BikesSection = () => {
 }
 
 const BikesContainer = styled.section`
-  height: 800px;
+  height: 900px;
   display: flex;
   flex-direction: column;
   justify-content: center;

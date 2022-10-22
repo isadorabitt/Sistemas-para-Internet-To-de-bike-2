@@ -48,8 +48,6 @@ export const LoginForm = () => {
                 <img className={registerForm.imagem}src={decoration} alt="garoto de bike" />
             </div>
 
-            
-
             <form className={registerForm.form}>
                 <Input 
                     type="email" 

@@ -1,7 +1,7 @@
 export const menuData = [
-  { title: "Nossas Bikes", link: "/bikes" },
-  { title: "Preços", link: "/precos" },
-  { title: "Contato", link: "/contato" },
+  { title: "Nossas Bikes", link: "#bikes" },
+  { title: "Preços", link: "#precos" },
+  { title: "Contato", link: "#contato" },
 ];
 
 export const mainMenuData = [

@@ -70,7 +70,6 @@
 
 }
 
-
 /* login */
 
 .loginMain {
@@ -148,6 +147,10 @@
         display: none;
     }
 
+    .form {
+        margin: 0 auto;
+    }
+
     .form p {
         display: block;
         margin-bottom: 2rem;
@@ -158,13 +161,6 @@
         color: #F4F0F0;
     }
 
-    .form {
-        margin: 0 auto;
-        
-    }
-
-
-
     .registerPhrase {
         color: #FFF;
         font-size: 30px;
@@ -173,7 +169,6 @@
     .regButton {
         margin-top: 3rem;
     }
-
 
   }
 
