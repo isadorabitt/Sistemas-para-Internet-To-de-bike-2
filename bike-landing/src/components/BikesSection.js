@@ -7,7 +7,7 @@ import Foto4 from "../assets/images/foto4.jpg"
 
 export const BikesSection = () => {
   return (
-      <BikesContainer>
+      <BikesContainer id="bikes">
           <BikesH1>Nossas Bikes</BikesH1>
           <BikesWrapper>
               <BikeCard>
@@ -33,7 +33,7 @@ const BikesContainer = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #F2F5F7;
+  background: #fff;
   
   @media screen and (max-width: 768px) {
     height: auto;

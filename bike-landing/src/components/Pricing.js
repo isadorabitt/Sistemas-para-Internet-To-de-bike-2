@@ -19,7 +19,7 @@ import {
 export const Pricing = () => {
     return (
         <IconContext.Provider value={{color: '#a9b3c1', size: 50}}>
-            <PricingSection >
+            <PricingSection id="pricing">
                 <PricingWrapper>
                     <PricingHeading>Nossos Planos</PricingHeading>
                     <PricingContainer>

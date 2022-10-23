@@ -58,13 +58,18 @@ const Img = styled.img`
   height: auto;
 `;
 
-const NavLink = styled(Link)`
+const NavLink = styled.p`
   color: #fff;
   display: flex;
   align-items: center;
   text-decoration: none;
   padding: 0 1rem;
   cursor: pointer;
+  
+  &:hover {
+    color: #0aa1dd;
+    transition: 0.6s ease-out;
+  }
 `;
 
 const Bars = styled(FaBars)`
