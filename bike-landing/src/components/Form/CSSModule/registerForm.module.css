@@ -81,16 +81,13 @@
         );
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.22);
     position: fixed;
-    width: 86rem;
+    width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: space-between;
     
 }
 
-.loginMain form {
-    
-}
 
 .loginMain form button {
     margin: 2rem;
@@ -181,9 +178,5 @@
 
     .imagem {
         display: none;
-    }
-
-    .leftSection img {
-        top: 0;
     }
   }
