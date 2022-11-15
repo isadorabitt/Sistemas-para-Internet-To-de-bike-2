@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { AuthProvider } from "./context/auth";
+import { AuthProvider } from "./contexts";
 import { Home } from "./pages/Home";
 import { GlobalStyle } from "./GlobalStyles";
 import { Menu } from "./pages/Menu";
@@ -10,6 +10,7 @@ import { Bikes } from "./pages/Bikes";
 import { Help } from "./pages/Help";
 import {Register} from "./pages/Register";
 import {Login} from "./pages/Login";
+
 
 function App() {
   return (
