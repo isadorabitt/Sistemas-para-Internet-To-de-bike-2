@@ -1,0 +1,33 @@
+.teste {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 50px;
+}
+
+.teste button {
+  font-size: 20px;
+  font-family: Inter;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  color: #f9f9f9;
+  background: #0098da;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: 0.3s !important;
+}
+
+.teste button:hover {
+  background: #6abd50;
+  transform: translateY(-2px);
+}
+
+.teste2 {
+  min-width: 35rem;
+}
