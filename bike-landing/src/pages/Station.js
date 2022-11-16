@@ -7,8 +7,7 @@ export const Station = () => {
   return (
     <>
       <SideBar />
-      <NearStations/>
-      <Footer />
+      <NearStations />
     </>
   );
 };

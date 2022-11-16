@@ -1,26 +1,14 @@
 import React from "react";
-import { ImageCarousel } from "../Carousel";
-import { Button } from '../Button';
-import stations from "./CSSModule/stations.module.css";
+import { Carrousel } from "./Carrousel";
+import "./Station.css";
 
 export const NearStations = () => {
-
-return (
-
-<div className={stations.NearStations}>
-    <div >
-        <h3>Estações próximas:</h3>
-        <ImageCarousel/>
+  return (
+    <div className="mainContainer">
+      <h1>Estações próximas</h1>
+      <Carrousel />
+      <h2>Não encontrou as estações que procura?</h2>
+      <button>Mais estações</button>
     </div>
-
-    <div className={stations.MoreStations}>
-        <h3> Não encontrou as estações que Procura? </h3>
-        <Button primary="true" round="true"> Mais estações</Button>
-    </div>
-</div>
-
-
-)
-
-
-}
+  );
+};

@@ -8,6 +8,8 @@ export const QRScanner = (props) => {
   };
   return (
     <div className={styles.teste}>
+      <h1>Comece a pedalar agora. </h1>
+      <h1>Clique no Botão e aponte o celular para a bike </h1>
       <button onClick={handleCamera}>Pedale Agora</button>
       {camEnable && (
         <QrReader

@@ -1,0 +1,36 @@
+.mainMenu {
+  padding-top: 100px;
+}
+
+.carousel .slider-wrapper {
+  width: 50%;
+  object-fit: cover;
+}
+
+.carousel .thumb {
+  width: 100px !important;
+  height: 100px;
+  object-fit: cover !important;
+}
+
+.slider-wrapper img {
+  object-fit: cover !important;
+}
+
+.thumb img {
+  object-fit: cover !important;
+}
+
+.carousel {
+  text-align: center;
+}
+
+.containerCarrousel {
+  max-width: 50%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.containerCarrousel h1 {
+  color: #0aa1d1;
+}
