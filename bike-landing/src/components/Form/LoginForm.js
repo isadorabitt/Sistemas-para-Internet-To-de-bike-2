@@ -34,7 +34,9 @@ export const LoginForm = () => {
   return (
     <main className={registerForm.loginMain}>
       <div className={registerForm.leftSection}>
-        <img src={logo} alt="logo" />
+        <img src={logo} className={registerForm.logo} alt="logo" />
+        
+
 
         <p className={registerForm.loginText}>
           Olá. Seja bem-vindo!<b>Boralá!</b>Acesse sua conta.
