@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@600&display=swap');
+
+.mainmenuContainer h1{
+    font-size: 1.7rem;
+    color: rgba(0, 152, 218, 1);
+    margin-left: 330px;
+    padding-top: 5%;
+}
+.mainmenuContainer h2{
+    font-size: 1.7rem;
+    color: rgba(0, 152, 218, 1);
+    margin-left: 330px;
+    padding-top: 12%;
+}
+
+.mainmenuContainer p{
+    font-size: 1.2rem;
+    color: black;
+    margin-left: 330px;
+    padding-top: 12%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mainmenuContainer h7{
+    font-size: 1.5rem;
+    color: black;
+    margin-left: 330px;
+    padding-top: 12%;
+    font-weight: bold;
+    line-height: 300%;
+}
+.mainmenuContainer button{
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgba(0, 152, 218, 1);
+    border: 1px solid rgba(0, 152, 218, 1);
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 15px 30px;
+    margin-left: 330px;
+    box-shadow: 0px 5px 5px #bbb;
+    font-family: 'Roboto', sans-serif;
+}
+.mainmenuContainer button:hover{
+    background-color: white;
+    color: rgba(0, 152, 218, 1);
+}
