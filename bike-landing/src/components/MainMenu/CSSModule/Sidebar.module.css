@@ -46,7 +46,11 @@
   padding: 6px 0 6px 12px;
   display: flex;
   align-items: center;
+<<<<<<< HEAD
   font-family: 'Roboto', sans-serif;
+=======
+  font-family: Inter;
+>>>>>>> 4d241836edbd37eed51bddcbd74774d5d6bed17a
 }
 
 .navMenu a:global(.active),
@@ -54,7 +58,10 @@
   background-color: white;
   color: black;
   border-radius: 30px 0px 0px 30px;
+<<<<<<< HEAD
   font-family: 'Roboto', sans-serif;
+=======
+>>>>>>> 4d241836edbd37eed51bddcbd74774d5d6bed17a
   font-weight: 500;
 }
 
@@ -157,4 +164,4 @@ footer {
   .npNavMenu a:global(.active) {
     border-radius: 30px 0px 0px 30px;
   }
-} ;
+}

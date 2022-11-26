@@ -6,18 +6,16 @@
     height: 100vh;
     width: 100vw;
     align-content: center;
-    position:relative;
+    position: relative;
 
-    
+
 }
 
-.left{
-    background: linear-gradient(
-        180deg,
-        #0098dac2 0%,
-        #49b27ac7 65.62%,
-        rgb(106 189 80 / 76%) 100%
-        );
+.left {
+    background: linear-gradient(180deg,
+            #0098dac2 0%,
+            #49b27ac7 65.62%,
+            rgb(106 189 80 / 76%) 100%);
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.22);
     width: 50vw;
     display: flex;
@@ -73,21 +71,18 @@
 /* login */
 
 .loginMain {
-    background: linear-gradient(
-        180deg,
-        #0098dac2 0%,
-        #49b27ac7 65.62%,
-        rgb(106 189 80 / 76%) 100%
-        );
+    background: linear-gradient(180deg,
+            #0098dac2 0%,
+            #49b27ac7 65.62%,
+            rgb(106 189 80 / 76%) 100%);
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.22);
     position: fixed;
     width: 100vw;
     height: 100vh;
     display: flex;
-    justify-content: space-between;
-    
-}
+    justify-content: space-around;
 
+}
 
 .loginMain form button {
     margin: 2rem;
@@ -102,14 +97,14 @@
 }
 
 .loginText {
-    
+
     font-size: 1.5rem;
     color: #FFF;
     margin-top: 2rem;
     padding: 0 3rem;
     letter-spacing: 2px;
     line-height: 30px;
-    font-weight: lighter; 
+    font-weight: lighter;
     display: flex;
     flex-direction: column;
 }
@@ -120,7 +115,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    
+
 }
 
 .foot {
@@ -129,15 +124,13 @@
     left: 85vh;
 }
 
- /* media queries tela de registro */
+/* media queries tela de registro */
 @media screen and (max-width: 768px) {
-    .registerMain{
-        background: linear-gradient(
-        180deg,
-        #0098dac2 0%,
-        #49b27ac7 65.62%,
-        rgb(106 189 80 / 76%) 100%
-        );    
+    .registerMain {
+        background: linear-gradient(180deg,
+                #0098dac2 0%,
+                #49b27ac7 65.62%,
+                rgb(106 189 80 / 76%) 100%);
     }
 
     .left {
@@ -167,16 +160,36 @@
         margin-top: 3rem;
     }
 
-  }
+}
 
-  /* media queries tela de login */
+/* media queries tela de login */
 
-  @media screen and (max-width: 768px) {
-    .loginText {
-        display: none;
-    }
+@media screen and (max-width: 768px) {
 
+    .loginText,
     .imagem {
         display: none;
     }
-  }
+
+    .leftSection {
+        display: inline;
+    }
+
+    .loginMain {
+        display: grid;
+        align-content: space-evenly;
+        justify-items: center;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .form {
+        margin-bottom: 10em;
+    }
+
+    .foot {
+        display: none;
+    }
+}
