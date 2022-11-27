@@ -7,7 +7,7 @@
   background: rgb(0, 152, 218);
   background: linear-gradient(
     180deg,
-    rgba(0, 152, 218, 1) 0%,
+    rgb(0, 152, 218) 0%,
     rgba(73, 178, 122, 1) 75%,
     rgba(106, 189, 80, 1) 100%
   );
@@ -46,11 +46,7 @@
   padding: 6px 0 6px 12px;
   display: flex;
   align-items: center;
-<<<<<<< HEAD
   font-family: 'Roboto', sans-serif;
-=======
-  font-family: Inter;
->>>>>>> 4d241836edbd37eed51bddcbd74774d5d6bed17a
 }
 
 .navMenu a:global(.active),
@@ -58,10 +54,7 @@
   background-color: white;
   color: black;
   border-radius: 30px 0px 0px 30px;
-<<<<<<< HEAD
   font-family: 'Roboto', sans-serif;
-=======
->>>>>>> 4d241836edbd37eed51bddcbd74774d5d6bed17a
   font-weight: 500;
 }
 

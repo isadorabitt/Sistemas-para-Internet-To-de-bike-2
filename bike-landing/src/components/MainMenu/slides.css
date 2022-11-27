@@ -1,0 +1,51 @@
+.carroseelmainMenu {
+    padding-top: 30px;
+  }
+  
+  .carousel .slider-wrapper {
+    width: 50%;
+    object-fit: cover;
+    border-radius: 35px;
+  }
+  
+  .carousel .thumb {
+    width: 80px !important;
+    height: 80px;
+    object-fit: cover !important;
+  }
+  
+  .slider-wrapper img {
+    object-fit: cover !important;
+  }
+  
+  .thumb img {
+    object-fit: cover !important;
+    border-radius: 16px;
+    height: 80px;
+  }
+  
+  .carousel {
+    text-align: center;
+  }
+  
+  .containerCarrossel{
+    max-width: 50%;
+    display: flex;
+    margin: 0 auto;
+  }
+  
+  .containerCarrossel h1 {
+    color: #0aa1d1;
+  }
+  .containerCarrossel1{
+    max-width: 60%;
+    display: flex;
+    margin-left: 10%;
+    padding-top:1%;
+  }
+  .item img{
+    border-radius: 30px;
+    margin-left: 50%;
+    border: 1px solid rgba(0, 152, 218, 1);
+    box-shadow: 0px 5px 5px #bbb;
+}

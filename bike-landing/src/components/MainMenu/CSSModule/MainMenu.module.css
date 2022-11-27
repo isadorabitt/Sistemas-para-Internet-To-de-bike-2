@@ -3,31 +3,30 @@
 .mainmenuContainer h1{
     font-size: 1.7rem;
     color: rgba(0, 152, 218, 1);
-    margin-left: 330px;
-    padding-top: 5%;
+    padding-top: 2.5%;
+    text-align: center;
 }
+
 .mainmenuContainer h2{
     font-size: 1.7rem;
     color: rgba(0, 152, 218, 1);
-    margin-left: 330px;
-    padding-top: 12%;
+    margin-left: -55%;
 }
 
 .mainmenuContainer p{
     font-size: 1.2rem;
     color: black;
     margin-left: 330px;
-    padding-top: 12%;
     font-family: 'Roboto', sans-serif;
 }
 
 .mainmenuContainer h7{
     font-size: 1.5rem;
     color: black;
-    margin-left: 330px;
-    padding-top: 12%;
     font-weight: bold;
+    margin-left: 330px;
     line-height: 300%;
+    padding-bottom: 15%;
 }
 .mainmenuContainer button{
     font-size: 1.5rem;
@@ -40,8 +39,12 @@
     margin-left: 330px;
     box-shadow: 0px 5px 5px #bbb;
     font-family: 'Roboto', sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: 0.3s !important;
 }
 .mainmenuContainer button:hover{
-    background-color: white;
-    color: rgba(0, 152, 218, 1);
+    background: #6abd50;
+    transform: translateY(-2px);
 }
